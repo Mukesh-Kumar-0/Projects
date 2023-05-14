@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="body">
+        <div id="row1">
+            <input type="image" id="A1" src="rook.png" alt="" value="wi rook" class="button wi" onclick="ShowClick(this.id)">
+            <input type="image" id="A2" src="knigth.png" alt="" value="wi knigth" class="button bl" onclick="ShowClick(this.id)">
+            <input type="image" id="A3" src="bishop.png" alt="" value="wi bishop" class="button wi" onclick="ShowClick(this.id)">
+            <input type="image" id="A4" src="quee.png" alt="" value="wi quee" class="button bl" onclick="ShowClick(this.id)">
+            <input type="image" id="A5" src="king.png" alt="" value="wi king" class="button wi" onclick="ShowClick(this.id)">
+            <input type="image" id="A6" src="bishop.png" alt="" value="wi bishop" class="button bl" onclick="ShowClick(this.id)">
+            <input type="image" id="A7" src="knigth.png" alt="" value="wi knigth" class="button wi" onclick="ShowClick(this.id)">
+            <input type="image" id="A8" src="rook.png" alt="" value="wi rook" class="button bl" onclick="ShowClick(this.id)">
+        </div>
+        <div id="row2">
+            <input type="image" id="B1" src="pawn.png" alt="" value="wi pawn" class="button bl" onclick="ShowClick(this.id)">
+            <input type="image" id="B2" src="pawn.png" alt="" value="wi pawn" class="button wi" onclick="ShowClick(this.id)">
+            <input type="image" id="B3" src="pawn.png" alt="" value="wi pawn" class="button bl" onclick="ShowClick(this.id)">
+            <input type="image" id="B4" src="pawn.png" alt="" value="wi pawn" class="button wi" onclick="ShowClick(this.id)">
+            <input type="image" id="B5" src="pawn.png" alt="" value="wi pawn" class="button bl" onclick="ShowClick(this.id)">
+            <input type="image" id="B6" src="pawn.png" alt="" value="wi pawn" class="button wi" onclick="ShowClick(this.id)">
+            <input type="image" id="B7" src="pawn.png" alt="" value="wi pawn" class="button bl" onclick="ShowClick(this.id)">
+            <input type="image" id="B8" src="pawn.png" alt="" value="wi pawn" class="button wi" onclick="ShowClick(this.id)">
+
+        </div>
+       <div id="row3">
+            <input type="image" id="C1" src="" alt="" value="null" class="button wi" onclick="ShowClick(this.id)">
+            <input type="image" id="C2" src="" alt="" value="null" class="button bl" onclick="ShowClick(this.id)">
+            <input type="image" id="C3" src="" alt="" value="null" class="button wi" onclick="ShowClick(this.id)">
+            <input type="image" id="C4" src="" alt="" value="null" class="button bl" onclick="ShowClick(this.id)">
+            <input type="image" id="C5" src="" alt="" value="null" class="button wi" onclick="ShowClick(this.id)">
+            <input type="image" id="C6" src="" alt="" value="null" class="button bl" onclick="ShowClick(this.id)">
+            <input type="image" id="C7" src="" alt="" value="null" class="button wi" onclick="ShowClick(this.id)">
+            <input type="image" id="C8" src="" alt="" value="null" class="button bl" onclick="ShowClick(this.id)">
+
+       </div>
+       <div id="row4">
+        <input type="image" id="D1" src="" alt="" value="null" class="button bl" onclick="ShowClick(this.id)">
+        <input type="image" id="D2" src="" alt="" value="null" class="button wi" onclick="ShowClick(this.id)">
+        <input type="image" id="D3" src="" alt="" value="null" class="button bl" onclick="ShowClick(this.id)">
+        <input type="image" id="D4" src="" alt="" value="null" class="button wi" onclick="ShowClick(this.id)">
+        <input type="image" id="D5" src="" alt="" value="null" class="button bl" onclick="ShowClick(this.id)">
+        <input type="image" id="D6" src="" alt="" value="null" class="button wi" onclick="ShowClick(this.id)">
+        <input type="image" id="D7" src="" alt="" value="null" class="button bl" onclick="ShowClick(this.id)">
+        <input type="image" id="D8" src="" alt="" value="null" class="button wi" onclick="ShowClick(this.id)">
+
+   </div>
+   <div id="row5">
+    <input type="image" id="E1" src="" alt="" value="null" class="button wi" onclick="ShowClick(this.id)">
+    <input type="image" id="E2" src="" alt="" value="null" class="button bl" onclick="ShowClick(this.id)">
+    <input type="image" id="E3" src="" alt="" value="null" class="button wi" onclick="ShowClick(this.id)">
+    <input type="image" id="E4" src="" alt="" value="null" class="button bl" onclick="ShowClick(this.id)">
+    <input type="image" id="E5" src="" alt="" value="null" class="button wi" onclick="ShowClick(this.id)">
+    <input type="image" id="E6" src="" alt="" value="null" class="button bl" onclick="ShowClick(this.id)">
+    <input type="image" id="E7" src="" alt="" value="null" class="button wi" onclick="ShowClick(this.id)">
+    <input type="image" id="E8" src="" alt="" value="null" class="button bl" onclick="ShowClick(this.id)">
+
+    </div>
+    <div id="row6">
+        <input type="image" id="F1" src="" alt="" value="null" class="button bl" onclick="ShowClick(this.id)">
+        <input type="image" id="F2" src="" alt="" value="null" class="button wi" onclick="ShowClick(this.id)">
+        <input type="image" id="F3" src="" alt="" value="null" class="button bl" onclick="ShowClick(this.id)">
+        <input type="image" id="F4" src="" alt="" value="null" class="button wi" onclick="ShowClick(this.id)">
+        <input type="image" id="F5" src="" alt="" value="null" class="button bl" onclick="ShowClick(this.id)">
+        <input type="image" id="F6" src="" alt="" value="null" class="button wi" onclick="ShowClick(this.id)">
+        <input type="image" id="F7" src="" alt="" value="null" class="button bl" onclick="ShowClick(this.id)">
+        <input type="image" id="F8" src="" alt="" value="null" class="button wi" onclick="ShowClick(this.id)">
+
+   </div>
+   <div id="row7">
+    <input type="image" id="G1" src="blackpawn.png" alt="" value="black pawn" class="button wi" onclick="ShowClick(this.id)">
+    <input type="image" id="G2" src="blackpawn.png" alt="" value="black pawn" class="button bl" onclick="ShowClick(this.id)">
+    <input type="image" id="G3" src="blackpawn.png" alt="" value="black pawn" class="button wi" onclick="ShowClick(this.id)">
+    <input type="image" id="G4" src="blackpawn.png" alt="" value="black pawn" class="button bl" onclick="ShowClick(this.id)">
+    <input type="image" id="G5" src="blackpawn.png" alt="" value="black pawn" class="button wi" onclick="ShowClick(this.id)">
+    <input type="image" id="G6" src="blackpawn.png" alt="" value="black pawn" class="button bl" onclick="ShowClick(this.id)">
+    <input type="image" id="G7" src="blackpawn.png" alt="" value="black pawn" class="button wi" onclick="ShowClick(this.id)">
+    <input type="image" id="G8" src="blackpawn.png" alt="" value="black pawn" class="button bl" onclick="ShowClick(this.id)">
+    </div>
+    <div id="row8">
+        <input type="image" id="H1" src="blackRook.png" alt="" value="black rook" class="button bl" onclick="ShowClick(this.id)">
+        <input type="image" id="H2" src="blackKnight.png" alt="" value="black knigth" class="button wi" onclick="ShowClick(this.id)">
+        <input type="image" id="H3" src="blackBishop.png" alt="" value="black bishop" class="button bl" onclick="ShowClick(this.id)">
+        <input type="image" id="H4" src="blackqueen.png" alt="" value="black quee" class="button wi" onclick="ShowClick(this.id)">
+        <input type="image" id="H5" src="blacking.png" alt="" value="black king" class="button bl" onclick="ShowClick(this.id)">
+        <input type="image" id="H6" src="blackBishop.png" alt="" value="black bishop" class="button wi" onclick="ShowClick(this.id)">
+        <input type="image" id="H7" src="blackKnight.png" alt="" value="black knigth" class="button bl" onclick="ShowClick(this.id)">
+        <input type="image" id="H8" src="blackRook.png" alt="" value="black rook" class="button wi" onclick="ShowClick(this.id)">
+
+   </div>
+
+    </div>
+    <script src="../index.js"></script>
+</body>
+</html>
